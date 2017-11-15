@@ -9,43 +9,11 @@
     <link rel="stylesheet" href="css/style-social.css" />
 </head>
 <body>
-    <div class="app-container">
-        <div class="header">
-            <div class="branding-container">
-                <div class="menu-button"><img src="images/menu.svg" /></div>
-                <div class="logo"><img src="images/ez_dial.svg" /></div>
-            </div>
+    <div >
+        <h1>this is link</h1>h1>
         <a href="tel:4089657768,1,85628,147258">Pawan's Bridge</a>
-        </div>
-        <div class="steps-container">
-            <ul class="steps-list">
-                <li class="step dial"><span>dial</span><span>011874345</span><div class="remove"></div></li>
-                <li class="step pause"><span>pause</span><span>for 2 seconds</span><div class="remove"></div></li>
-                <li class="step wait"><span>wait</span><span>for user input</span><div class="remove"></div></li>
-                <li class="step dial"><span>dial</span><span>435#</span><div class="remove"></div></li>
-            </ul>
-            <button class="add-step" onclick="toggleClass()">add step</button>
-            <div id="step-selector" onclick="toggleClass()">
-                <div class="info-text">please select a step type:</div>
-                <ul class="step-type-list">
-                    <li class="step-type">dial <span>a sequence of numbers or lettters</span></li>
-                    <li class="step-type">pause <span>for 2 seconds</span></li>
-                    <li class="step-type">wait <span>for user input</span></li>
-                </ul>
-            </div>
-            <div id="overlay" onclick="toggleClass()"></div>
-        </div>
+        
     </div>
-
-    <script>
-        function toggleClass() {
-            var element = document.getElementById("step-selector");
-            var overlay = document.getElementById("overlay");
-            element.classList.toggle("show");
-            overlay.classList.toggle("show");
-        }
-
-    </script>
 
 </body>
 </html>
